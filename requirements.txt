@@ -1,0 +1,11 @@
+# 视频进度条生成器 - Python 依赖
+# 安装: pip install -r requirements.txt
+
+numpy>=2.0,<3      # 帧数据向量化运算
+pillow>=11.0       # 字体加载与图形绘制
+
+# 注意: ffmpeg 为系统级外部依赖(需包含 libx264 与 prores 编码器),
+# 不通过 pip 安装。Windows 推荐 full build:
+#   https://www.gyan.dev/ffmpeg/builds/
+# 安装后加入 PATH, 用 `ffmpeg -version` 验证
+# (程序也支持通过 --ffmpeg 参数指定 ffmpeg.exe 路径)
