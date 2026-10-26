@@ -3,6 +3,7 @@
 
 numpy>=2.0,<3      # 帧数据向量化运算
 pillow>=11.0       # 字体加载与图形绘制
+PySide6>=6.6       # 桌面 GUI (Qt/QML), 仅命令行使用可不装
 
 # 注意: ffmpeg 为系统级外部依赖(需包含 libx264 与 prores 编码器),
 # 不通过 pip 安装。Windows 推荐 full build:
