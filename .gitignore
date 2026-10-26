@@ -40,7 +40,8 @@ credentials.*
 *.webm
 *_preview_*.png
 *_pv.png
-donkey_hiker_frames/   # GIF 拆帧中间产物, 可由 GIF 重新生成
+# GIF 拆帧中间产物, 可由 GIF 重新生成
+donkey_hiker_frames/
 
 # 运行日志与临时文件
 ffmpeg_*.log
